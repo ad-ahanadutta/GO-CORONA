@@ -41,7 +41,7 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
       }}
     />
   ) : null;
-  console.log(dailyData);
+
   const lineChart = dailyData[0] ? (
     <Line
       data={{
